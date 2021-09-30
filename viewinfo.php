@@ -43,7 +43,7 @@ $mysqli = new mysqli('sql6.freemysqlhosting.net','sql6441142','EmnudfUuyc','sql6
                 <td><?php echo $rows['email'];?></td> 
                 <td><?php echo $rows['birthdate'];?></td> 
                 <td><?php echo $rows['gender'];?></td> 
-                <td><?php echo $rows['mobileno'];?></td> 
+                <td><?php echo $rows['mobile'];?></td> 
                 <td><?php echo $rows['password'];?></td> 
             </tr> 
             <?php 
