@@ -37,8 +37,8 @@ $mysqli = new mysqli('sql6.freemysqlhosting.net','sql6441142','EmnudfUuyc','sql6
                 { 
              ?> 
             <tr> 
-                <td><?php echo $rows['first_name'];?></td> 
-                <td><?php echo $rows['last_name'];?></td> 
+                <td><?php echo $rows['fname'];?></td> 
+                <td><?php echo $rows['lname'];?></td> 
                 <td><?php echo $rows['address'];?></td> 
                 <td><?php echo $rows['email'];?></td> 
                 <td><?php echo $rows['birthdate'];?></td> 
